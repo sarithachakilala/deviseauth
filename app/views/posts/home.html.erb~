@@ -1,0 +1,4 @@
+<HTML><H1 ALIGN="CENTER">WELCOME TO DEVISE AUTHENTICATION </H1><HTML>
+
+Welcome <%= current_user.email %> !!! not?<%= link_to 'SIGNOUT' destroy_user_session_path, :method => :delete %>
+
